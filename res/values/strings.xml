@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BMapApiDemoMain!</string>
+    <string name="app_name">BaiduMapApiDemo</string>
+    <string name="menu_seek">搜索</string>
+    <string name="menu_converage">图层</string>
+    <string name="menu_way">路线</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_off_line_map">离线地图</string>
+   <string name="button_ok">定  位</string>
+    <color name="blue">#1709a2</color>
+    <color name="sblue">#8c8ae1</color>
+    
+    <string name="city_text">城  市：</string>
+    <string name="zoom_text">关键字：</string>
+	<string name="search_text">请输入城市名以及要查询的地点</string>
+	<string name="search_result">查询结果</string>
+	<string name="walk_text">步 行</string>
+	<string name="car_text">驾 车</string>
+	<string name="bus_text">公 交</string>
+	<string name="from_text">起 点：</string>
+	<string name="to_text">终 点：</string>
+	<string name="click_text">查  询</string>
+	<string name="route_text">查请输入公交线路名：</string>
+	<string name="route_ok">查  询</string>
+      <string name="menu_converage_sate">卫星地图</string>
+        <string name="menu_converage_hot">热门分享</string>
+          <string name="menu_converage_hospital">医院</string>
+            <string name="menu_converage_hotel">旅馆</string>
+    
+    <string name="menu_quit">退出</string>
+    <string name="str_id_start">开始</string>
+    <string name="seek_location">公交线路名</string>
+    <string name="str_id_bus">公交车</string>
+    <string name="about_content">"\n      百度提醒您：在使用移动版百度地图
+        （以下简称百度）前，请您务必仔细阅读并透彻理解本服务条款。一旦您选择使用移动版百度地图，即表示您认
+        可本百度地图移动服务条款及其随时的更新： 1.百度尊重并保护所有使用百度用户的个人隐私权，您注册的用
+        户名、电子邮件地址等个人资料，非经您亲自许可或根据相关法律、法规的强制性规定，百度不会主动地泄露给
+        第三方。但您在使用地图搜索引擎时输入的关键字将不被认为是您的个人隐私资料。包括移动运营商和您决定使
+        用的非百度的其他应用程序在内的第三方会同时提供相关“服务”，您认可并同意第三方的服务条款，请您仔细
+        查阅相关政策，对此百度不承担任何责任。 2.您应该对使用搜索引擎的结果自行承担风险。百度不做任何形式
+        的保证：不保证搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、
+        合法性。因网络状况、通讯线路、第三方网站或服务商等任何原因而导致您不能正常使用百度，百度不承担任何
+        法律责任。 除非特别说明，百度向您提供的服务均为免费。某些服务需要电话、数据访问或短信功能支持，您可
+        能需要支付产生的第三方相应费用。 百度不会主动收集您的个人身份信息，除非这些信息是您自己提供的。例如
+        ，百度地图移动版的共享服务允许您与其他用户交互和共享个人信息与数据。您可以选择要共享的信息以及要使
+        用的共享方式。 详情参见权利保护声明：http://www.baidu.com/
+        duty/right.html 数据提供商:"</string>
+ <string name="zai">在</string>
+  <string name="chengdu">成都</string>
+   <string name="shinei">市内找</string>
+    <string name="tianfuguangchang">天府广场</string>
+     <string name="chaxun">开始</string>
+     <string name="guanjianci">市内找</string>
+    
+     <string name="guanjianzichaxun">关键字查询</string>
+     
+     
+</resources>

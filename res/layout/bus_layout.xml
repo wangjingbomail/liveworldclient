@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RadioGroup 
+        android:id="@+id/button_group"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        >
+        <RadioButton 
+            android:id="@+id/walk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/walk_text"
+            />
+        <RadioButton 
+            android:id="@+id/car"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/car_text"
+            />
+        <RadioButton 
+            android:id="@+id/bus"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bus_text"
+            />
+    </RadioGroup>
+    
+    <EditText 
+        android:id="@+id/fromwhere"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/from_text"
+        />
+    
+    <EditText 
+        android:id="@+id/towhere"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/to_text"
+        />
+	<Button 
+	    android:id="@+id/click"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:text="@string/click_text"
+	    />
+</LinearLayout>

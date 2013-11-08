@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+      android:background="@drawable/about">
+    <TextView 
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/about_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_content"
+        android:textSize="12dip"
+        android:background="#FFFFFFFF"
+      
+        />
+ <Button 
+     android:layout_height="40dip"
+     android:layout_width="60dip"
+     android:text="返回"
+     android:onClick="toback"
+     />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_seek"
+        android:icon="@drawable/menu_seek"
+        android:title="@string/menu_seek"/>
+    <item
+        android:id="@+id/menu_way"
+        android:icon="@drawable/menu_way"
+        android:title="@string/menu_way"/>
+    <item
+        android:id="@+id/menu_converage"
+        android:icon="@drawable/menu_layers"
+        android:title="@string/menu_converage">
+        <menu>
+            <item
+                android:id="@+id/menu_converage_satellite"
+                android:icon="@drawable/icon_class_sate"
+                android:title="@string/menu_converage_sate"/>
+            <item
+                android:id="@+id/menu_converage_hot"
+                android:icon="@drawable/hot_class"
+                android:title="@string/menu_converage_hot"/>
+            <item
+                android:id="@+id/menu_converage_hospital"
+                android:icon="@drawable/icon_class_hospital"
+                android:title="@string/menu_converage_hospital"/>
+            <item
+                android:id="@+id/menu_converage_hotel"
+                android:icon="@drawable/icon_class_hotel"
+                android:title="@string/menu_converage_hotel"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/menu_setting"
+        android:title="@string/menu_setting"/>
+    <item
+        android:id="@+id/menu_local_map"
+        android:icon="@drawable/menu_localmap"
+        android:title="@string/menu_off_line_map"/>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/menu_about"
+        android:title="@string/menu_about"/>
+    <item
+        android:id="@+id/menu_quit"
+        android:icon="@drawable/map_menu_exit"
+        android:title="@string/menu_quit"/>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FFFFFF" android:orientation="vertical">
+
+	<TextView android:id="@+id/textViewLatitude"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="X" android:layout_alignParentTop="true"
+		android:layout_marginTop="5dp" />
+
+	<EditText android:id="@+id/editTextLatitude"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="text" android:singleLine="true" />
+
+	<TextView android:id="@+id/textViewLongitude"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Y" android:layout_alignParentTop="true"
+		android:layout_marginTop="5dp" />
+
+	<EditText android:id="@+id/editTextLongitude"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="text" android:singleLine="true" />
+
+	<Button android:id="@+id/buttonLocation" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="定位" />
+
+</LinearLayout>

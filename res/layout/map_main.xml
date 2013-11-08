@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+  
+
+    <com.baidu.mapapi.MapView
+        android:id="@+id/map_View"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dip"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="20dip"
+    >
+      <EditText
+            android:id="@+id/route_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            
+            android:background="@drawable/select"
+            android:text="@string/seek_location"
+            android:textSize="16dip"
+            android:ems="10"
+            
+            android:paddingLeft="45.0dip" />
+          <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="45dip"
+                android:layout_height="40dip"
+                android:layout_alignBottom="@+id/route_name"
+                android:layout_alignLeft="@+id/route_name"
+                android:layout_alignTop="@+id/route_name"
+                android:layout_marginTop="3.0dip"
+                android:layout_marginLeft="3.0dip"
+                android:layout_marginBottom="3.0dip"
+                android:background="@drawable/baidu_search" 
+               />
+  
+        <ImageButton
+            android:layout_toRightOf="@id/route_name"
+            android:id="@+id/route_ok"
+          android:layout_width="60dip"
+                android:layout_height="40dip"
+          
+            android:src="@drawable/result_nearsearch"
+            />
+</RelativeLayout>
+
+</FrameLayout>
